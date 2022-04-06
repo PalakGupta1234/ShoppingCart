@@ -1,0 +1,15 @@
+server:
+  port: 8088
+  
+spring:
+  application:
+    name: Payment Microservice  
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/payment_management
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root    
+    

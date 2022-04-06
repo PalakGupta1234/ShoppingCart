@@ -1,0 +1,56 @@
+server:
+  port: 9091
+  
+spring:
+  application:
+    name: Product Microservice
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: shopping
+ # boot:
+  #  admin:
+   #   client:
+    #    url:
+      #    - http://localhost:8081      
+      
+      
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'   
+  endpoint:
+    health:
+      show-details: ALWAYS  
+      
+info:
+  app:
+    name: Product Microservice
+    version: 1.0
+    desccription: Add and retrieve product information              
+      
+product:
+  currencies:
+    - INR
+    - USD
+    - EUR
+    - AUD
+    
+    
+ 
+         
+           
+          
+     
+    
+      
+      
+      
+     
+    
+      
+    
+        
